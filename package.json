@@ -1,0 +1,27 @@
+{
+  "name": "trach",
+  "version": "1.0.0",
+  "description": "simple social newtwork",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "social",
+    "newtowrk"
+  ],
+  "author": "tratch vladimir",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/express": "^4.17.2",
+    "@types/socket.io": "^2.1.4",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
